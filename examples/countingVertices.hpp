@@ -7,7 +7,7 @@
 #include <cassert>
 #include <boost/graph/adjacency_list.hpp>
 
-using namespace std;
+using namespace boost;
 template <typename Graph>
 int GetNumberOfVertices(const Graph& g) noexcept
 {
